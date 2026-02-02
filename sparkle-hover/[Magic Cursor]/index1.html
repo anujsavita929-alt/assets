@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magic Cursor Effect</title>
+<style>
+  /* Body style */
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    overflow: hidden;
+    cursor: none; /* hide default cursor */
+  }
+
+  /* Magic cursor */
+  .magic-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff 0%, rgba(255,255,255,0) 70%);
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    mix-blend-mode: screen;
+    animation: glow 1s infinite alternate;
+  }
+
+  /* Sparkle animation */
+  @keyframes glow {
+    0% { box-shadow: 0 0 5px 2px #fff; }
+    100% { box-shadow: 0 0 20px 10px #ffd700; }
+  }
+
+  /* Optional: add sparkles trailing effect */
+  .sparkle {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    pointer-events: none;
+    opacity: 0;
+    animation: sparkle 0.6s forwards;
+  }
+
+  @keyframes sparkle {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(2) translateY(-20px); opacity: 0; }
+  }
+</style>
+</head>
+<body>
+
+<script>
+  const cursor = document.createElement('div');
+  cursor.classList.add('magic-cursor');
+  document.body.appendChild(cursor);
+
+  // Handle mouse movement
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+
+    // Create sparkles
+    const sparkle = document.createElement('div');
+    sparkle.classList.add('sparkle');
+    sparkle.style.left = e.clientX + 'px';
+    sparkle.style.top = e.clientY + 'px';
+    document.body.appendChild(sparkle);
+
+    // Remove sparkle after animation
+    setTimeout(() => sparkle.remove(), 600);
+  });
+</script>
+
+</body>
+</html>
