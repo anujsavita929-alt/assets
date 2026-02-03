@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.gradient-slide {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ffffff 50%, #ffd700 50%);
+    background-size: 200% 100%;
+    background-position: left;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.5s ease;
+    cursor: pointer;
+}
+
+.gradient-slide:hover {
+    background-position: right;
+}
