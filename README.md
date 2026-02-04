@@ -32,8 +32,16 @@ A hover-based gradient slide animation for text elements.
 
 ---
 
-### 3. Coming Soon 🚀
-More animations will be added following the same modular structure.
+### 3. Wave Text Animation 🌊
+A hover-triggered wave animation where individual letters move in sequence.
+
+**Features**
+- Smooth letter-by-letter wave motion
+- JavaScript-powered text splitting
+- CSS keyframe animation
+- Fully responsive
+
+📁 Location: `wave-text-animation/`
 
 ---
 
@@ -50,5 +58,10 @@ animation-assets/
 ├── gradient-slide-text/
 │   ├── index.html
 │   └── style.css
-│
+|
+├──wave-text-animation/
+|   ├── index.html
+|   ├── style.css
+|   └── script.js
+|
 └── README.md
