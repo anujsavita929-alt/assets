@@ -45,6 +45,11 @@ A hover-triggered wave animation where individual letters move in sequence.
 
 ---
 
+### 4. Coming Soon 🚀
+More animations will be added following the same modular structure.
+
+---
+
 ## 📂 Repository Structure
 
 ```txt
