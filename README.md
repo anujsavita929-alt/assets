@@ -45,7 +45,19 @@ A hover-triggered wave animation where individual letters move in sequence.
 
 ---
 
-### 4. Coming Soon 🚀
+### 4. Glitch Text Effect ⚡
+A cyber-style glitch animation that activates on hover using layered pseudo-elements.
+
+**Features**
+- Pure CSS (no JavaScript)
+- RGB glitch distortion
+- Lightweight and performant
+- Ideal for headings and hero text
+
+📁 Location: `glitch-text-effect/`
+
+---
+### 5. Coming Soon 🚀
 More animations will be added following the same modular structure.
 
 ---
@@ -68,5 +80,9 @@ animation-assets/
 |   ├── index.html
 |   ├── style.css
 |   └── script.js
+|
+|   glitch-text-effect/
+|   ├── index.html
+|   └── style.css
 |
 └── README.md
