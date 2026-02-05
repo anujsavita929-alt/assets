@@ -69,7 +69,20 @@ A hover-activated neon glow effect using layered CSS text shadows.
 📁 Location: `neon-glow-text/`
 
 ---
-### 6. Coming Soon 🚀
+### 6. Scale & Rotate Text 🔄
+A playful hover effect that scales and slightly rotates text using a spring-like easing curve.
+
+**Features**
+- Pure CSS hover interaction
+- Custom cubic-bezier easing
+- Smooth, elastic motion
+- Lightweight and responsive
+
+📁 Location: `scale-rotate-text/`
+
+---
+
+### 7. Coming Soon 🚀
 More animations will be added following the same modular structure.
 
 ---
@@ -100,6 +113,10 @@ animation-assets/
 ├── neon-glow-text/
 |   ├── index.html
 |   └── style.css
+|
+├── scale-rotate-text/
+|    ├── index.html
+|    └── style.css
 |
 |
 └── README.md

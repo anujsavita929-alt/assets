@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+        circle at top left,
+        #667eea 0%,
+        #764ba2 50%,
+        #f093fb 100%
+    );
+    font-family: Arial, sans-serif;
+}
+
+.scale-rotate {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.scale-rotate:hover {
+    transform: scale(1.3) rotate(5deg);
+}
