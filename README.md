@@ -57,7 +57,19 @@ A cyber-style glitch animation that activates on hover using layered pseudo-elem
 📁 Location: `glitch-text-effect/`
 
 ---
-### 5. Coming Soon 🚀
+### 5. Neon Glow Text ✨
+A hover-activated neon glow effect using layered CSS text shadows.
+
+**Features**
+- Pure CSS (no JavaScript)
+- Smooth neon glow transition
+- Radial gradient background
+- Ideal for headings, banners, and hero sections
+
+📁 Location: `neon-glow-text/`
+
+---
+### 6. Coming Soon 🚀
 More animations will be added following the same modular structure.
 
 ---
@@ -76,13 +88,18 @@ animation-assets/
 │   ├── index.html
 │   └── style.css
 |
-├──wave-text-animation/
+├── wave-text-animation/
 |   ├── index.html
 |   ├── style.css
 |   └── script.js
 |
-|   glitch-text-effect/
+├── glitch-text-effect/
 |   ├── index.html
 |   └── style.css
+|     
+├── neon-glow-text/
+|   ├── index.html
+|   └── style.css
+|
 |
 └── README.md
