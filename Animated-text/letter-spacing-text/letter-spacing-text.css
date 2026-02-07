@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(
+        circle at top left,
+        #667eea 0%,
+        #764ba2 50%,
+        #f093fb 100%
+    );
+    font-family: Arial, sans-serif;
+}
+
+.letter-spacing {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: letter-spacing 0.4s ease, color 0.4s ease;
+}
+
+.letter-spacing:hover {
+    letter-spacing: 15px;
+    color: #ffd700;
+}

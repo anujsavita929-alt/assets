@@ -93,8 +93,20 @@ A hover animation where a colorful gradient layer slides over the original text.
 📁 Location: `split-slide-text/`
 
 ---
+### 8. Letter Spacing Text ↔️
+A clean hover effect that expands letter spacing and changes color for emphasis.
 
-### 8. Coming Soon 🚀
+**Features**
+- Pure CSS transition
+- Smooth letter-spacing animation
+- Minimal and elegant interaction
+- Ideal for headings and navigation items
+
+📁 Location: `letter-spacing-text/`
+
+---
+
+### 9. Coming Soon 🚀
 More animations will be added following the same modular structure.
 
 ---
@@ -134,5 +146,8 @@ animation-assets/
 |    ├── index.html
 |    └── style.css
 |
+├── letter-spacing-text/
+|   ├── index.html
+|   └── style.css
 |
 └── README.md
