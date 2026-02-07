@@ -81,8 +81,20 @@ A playful hover effect that scales and slightly rotates text using a spring-like
 📁 Location: `scale-rotate-text/`
 
 ---
+### 7. Split & Slide Text ➗
+A hover animation where a colorful gradient layer slides over the original text.
 
-### 7. Coming Soon 🚀
+**Features**
+- Pure CSS pseudo-element technique
+- Smooth horizontal slide transition
+- Gradient text overlay
+- Clean and lightweight
+
+📁 Location: `split-slide-text/`
+
+---
+
+### 8. Coming Soon 🚀
 More animations will be added following the same modular structure.
 
 ---
@@ -115,6 +127,10 @@ animation-assets/
 |   └── style.css
 |
 ├── scale-rotate-text/
+|    ├── index.html
+|    └── style.css
+|
+├── split-slide-text/
 |    ├── index.html
 |    └── style.css
 |
