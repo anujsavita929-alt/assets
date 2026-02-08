@@ -105,8 +105,19 @@ A clean hover effect that expands letter spacing and changes color for emphasis.
 📁 Location: `letter-spacing-text/`
 
 ---
+### 9. Rainbow Color Shift Text 🌈
+A vibrant hover effect that animates a rainbow gradient across text.
 
-### 9. Coming Soon 🚀
+**Features**
+- Pure CSS animated gradient
+- Smooth infinite color cycling
+- Eye-catching rainbow palette
+- Ideal for highlights and playful UI elements
+
+📁 Location: `rainbow-shift-text/`
+
+
+### 10. Coming Soon 🚀
 More animations will be added following the same modular structure.
 
 ---
@@ -147,6 +158,9 @@ animation-assets/
 |    └── style.css
 |
 ├── letter-spacing-text/
+|   ├── index.html
+|   └── style.css
+├── rainbow-shift-text/
 |   ├── index.html
 |   └── style.css
 |
